@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <title>Team Success - Registration Page</title>
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+    <div>
+    <section id="form">
+    <span><h1>Hi, </h1><h1>Nice to meet you</h1>
+        <h4>Tell us more about yourself</h4>
+    </span>
+    
+    <form action="regvalidate.php" method="POST">
+        <input type="text" name="fullname" placeholder="Fullname" required>
+        <input type="text" name="username" placeholder="Your Username" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="password" name="confirmPassword" placeholder="Confirm password" required>
+        <input type="submit" value="REGISTER" >
+        <p> Already have an account? <a href="login.html"><strong>Click Here!</strong></a></p>
+    </form>
+    </section>
+    <section id="image">
+        <img src="https://res.cloudinary.com/dpkreativ/image/upload/v1568720517/Team%20Success%20First%20Task/2650147_nkb0mj.svg" alt="image" />
+    </section>
+    </div>
+</body>
+</html>
